@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="MySimpleTodoCommandSet_en-us">
+    <CommandPrefix> My Simple To do </CommandPrefix>
+    <Example> My Simple To do, show pending tasks </Example>
+
+    <Command Name="todoBackgroundCommandList">
+      <Example> show pending tasks </Example>
+      <ListenFor> {command} task[s] </ListenFor>
+      <Feedback> Executing specific command  </Feedback>
+      <VoiceCommandService Target="SimpleTodoVoiceCommandService"/>
+    </Command>
+
+    <PhraseList Label="command">
+      <Item>pending</Item>
+    </PhraseList>
+  </CommandSet>
+</VoiceCommands>
