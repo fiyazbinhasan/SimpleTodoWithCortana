@@ -94,10 +94,6 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="Assets\logo-107X107.png" />
     <Content Include="Assets\logo-1240X1240.scale-125.png" />
     <Content Include="Assets\logo-1240X1240.scale-150.png" />

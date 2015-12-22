@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Fizz\Documents\Visual Studio 2015\Projects\TestingSolution\UWPCSHARP\bin\x86\Release\UWPCSHARP_1.1.8.0_x86.appx
+SymbolPackage=C:\Users\Fizz\Desktop\todopackages\UWPCSHARP_1.1.8.0\UWPCSHARP_1.1.8.0_x86.appxsym
